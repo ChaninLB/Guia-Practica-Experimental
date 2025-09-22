@@ -1,4 +1,4 @@
-function CondicionalayorDeEda(){
+function CondicionalMayorDeEda(){
     let eda1=0, eda2=0, eda3=0;
     eda1 = parseInt(prompt("ingrese la primera edad"));
     eda2 = parseInt(prompt("ingrese la segunda edad"));
@@ -15,7 +15,7 @@ function CondicionalayorDeEda(){
     }   
 }
 debugger;
-CondicionalayorDeEda()
+CondicionalMayorDeEda()
 
 //pseudocodigo
 
