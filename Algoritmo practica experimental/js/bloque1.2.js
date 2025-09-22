@@ -6,14 +6,14 @@ function RepetitivaMayorDeEdad(){
     edad2=parseInt(prompt("ingrese la edad del segundo hermano"));
     edad3=parseInt(prompt("ingrese la edad del tercer hermano"));
     if (edad1>edad2 && edad1>edad3){
-        alert(`la edad del hermano mayor es ${edad1} años`)
-        console.log(`la edad del hermano mayor es: ${edad1} años`)
+        alert(`la edad del hermano mayor es ${edad1}`)
+        console.log(`la edad del hermano mayor es: ${edad1}`)
     } else if (edad2>edad1 && edad2>edad3){ 
         alert(`la edad del hermano mayor es ${edad2} años`)
-        console.log(`la edad del hermano mayor es: ${edad2} años`)
+        console.log(`la edad del hermano mayor es: ${edad2}`)
     } else {
-        alert(`la edad del hermano mayor es ${edad3} años`)
-        console.log(`la edad del hermano mayor es: ${edad3} años`)
+        alert(`la edad del hermano mayor es ${edad3}`)
+        console.log(`la edad del hermano mayor es: ${edad3}`)
     }   
     c=c+1
     }
