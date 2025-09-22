@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title></title>
+    </head>
+    <body>
+        <h1>Bloque2.2</h1> 
+        <h2>Pseudocodigo</h2>
+        <p>
+    Algoritmo Repetitivo_Invitaciones
+	Definir n, tarjetas, c, total Como Real
+	Escribir "ingrese la cantidad de numero de pedidos"
+	Leer n
+	Mientras (c<n) Hacer
+		Escribir "ingrese la cantidad de invitaciones"
+		leer tarjetas
+		Si (tarjetas <= 200) Entonces
+			total= tarjetas*2.00
+			Escribir "el valor es de $2.00c/u PrecioTotal: ", total
+		SiNo
+			si (tarjetas>200 Y tarjetas<300)Entonces
+				total= tarjetas*1.80
+				Escribir " el valor es de $1.80c/u PrecioTotal: ", total
+			SiNo
+				si (tarjetas>=300)Entonces
+					total=tarjetas*1.50
+					Escribir " el valor es de $2.50c/u PrecioTotal: ", total 
+				FinSi
+			FinSi
+		FinSi
+		c=c+1
+	FinMientras
+FinAlgoritmo
+        </p>
+        <script src="../js/bloque2.2.js">
+
+        </script>
+    </body>
+</html>
