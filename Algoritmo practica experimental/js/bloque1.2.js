@@ -26,7 +26,7 @@ RepetitivaMayorDeEdad()
 //Algoritmo Repetitiva_Mayor_De_Edad
 	//Definir N, i, eda1, eda2, eda3 Como Entero
 	//Escribir "ingrese el numero de grupo de edades"
-	//Leer n
+	//Leer N
 	//Mientras c<=N Hacer
 		//Escribir "ingresar la primera Edad"
 		//Leer eda1
