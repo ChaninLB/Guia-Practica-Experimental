@@ -40,23 +40,19 @@ ArregloSuscripcion()
 	//Leer N
 	//Dimensionar  usuarios[N]
 	//Dimensionar  costoTotal[N]
-	//Dimensionar costoPorUsuario[N]
 	//Para i <- 1 Hasta N Con Paso 1 Hacer
-		//Escribir "Ingrese la cantidad de usuarios del grupo ", i, ":"
+		//Escribir "Ingrese la cantidad de usuarios del grupo ", i
 		//Leer usuarios[i]
-		//Si usuarios[i] >= 100 Entonces
-			//costoUnitario=5
-			//total=usuarios[i] * costoUnitario
+		//Si usuarios[i] >= 100 Entonces
+			//total=usuarios[i] * 5
 			//Escribir "precio total: ", total
 		//SiNo
-			//Si usuarios[i] >= 50 Y usuarios[i] <= 99 Entonces
-				//costoUnitario=6
-				//total=usuarios[i] * costoUnitario
+			//Si usuarios[i] >= 50 Y usuarios[i] < 100 Entonces
+				//total=usuarios[i] * 6
 				//Escribir "precio total: ", total
 			//SiNo
-				//Si usuarios[i] >= 30 Y usuarios[i] <= 49 Entonces
-					//costoUnitario=8
-					//total=usuarios[i] * costoUnitario
+				//Si usuarios[i] >= 30 Y usuarios[i] < 50 Entonces
+					//total=usuarios[i] * 8
 					//Escribir "precio total: ", total
 				//SiNo
 					//si usuarios[i]  < 300 Entonces
