@@ -28,9 +28,9 @@ ArreglosPrecio()
 	//Definir preciofinal Como Real
 	//Escribir "Ingrese la cantidad de celulares:"
     //Leer N
-    //Dimension marcas[N]
-    //Dimension capacidades[N]
-    //Dimension preciosFinales[N]
+    //Dimensionar marcas[N]
+    //Dimensionar capacidades[N]
+    //Dimensionar preciosFinales[N]
     //Escribir "Ingrese el precio inicial de los celulares:"
     //Leer precioinicial
     //Para i=1 Hasta N Con Paso 1 Hacer
